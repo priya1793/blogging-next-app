@@ -1,0 +1,8 @@
+.widget-title {
+  font-weight: 700;
+  font-size: 18px;
+  border-bottom: 1px solid #ced0d4;
+  padding-bottom: 7px;
+  margin-bottom: 20px;
+  text-align: center;
+}

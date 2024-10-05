@@ -1,0 +1,87 @@
+.post-grid {
+  position: relative;
+  padding-bottom: 30px;
+}
+
+.post-grid .post-thumbnail {
+  position: relative;
+}
+
+.post-grid .post-thumbnail a {
+  display: block;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.post-grid .post-thumbnail a span {
+  box-sizing: border-box;
+  display: block;
+  overflow: hidden;
+  width: initial;
+  height: initial;
+  background: none;
+  opacity: 1;
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  max-width: 100%;
+}
+
+.post-grid .post-thumbnail a img {
+  width: 100%;
+  overflow: hidden;
+  transition: 0.5s;
+  inset: 0px;
+  box-sizing: border-box;
+  padding: 0px;
+  border: none;
+  margin: auto;
+  display: block;
+  object-fit: cover;
+}
+
+.post-grid:hover .post-thumbnail a img {
+  transform: scale(1.1);
+}
+
+.post-grid .post-grid-content {
+  position: absolute;
+  bottom: 0;
+  width: auto;
+  padding: 0 52px;
+  z-index: 2;
+  left: 0;
+  right: 0;
+}
+
+.post-grid-large .post-grid-content {
+  padding: 0 65px;
+}
+
+.post-grid .post-grid-content .post-content {
+  background: #fff;
+  padding: 30px 32px;
+  border-radius: 10px;
+}
+
+.post-grid .post-content .title a {
+  position: relative;
+  display: inline;
+  background-image: linear-gradient(90deg, currentColor 0, currentColor);
+  background-size: 0 2px;
+  background-position: 0 95%;
+  transition: background-size 0.25s cubic-bezier(0.785, 0.135, 0.15, 0.86) 0s;
+  padding: 0.1% 0;
+  background-repeat: no-repeat;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.post-grid:hover .post-content .title a {
+  background-size: 100% 2px;
+}
+
+/* .post-grid.post-grid-large .post-grid-content .post-content .post-cat {
+  margin-bottom: 20px;
+} */

@@ -1,0 +1,10 @@
+.widget_categories {
+  border-radius: 10px;
+}
+
+.widget_categories ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin: -5px;
+}
