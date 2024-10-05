@@ -24,20 +24,12 @@ const Carousel = () => {
   };
 
   return (
-    <div className="slider-container pb-5">
+    <div className="slider-container bg-color-grey pb-5">
       <Slider {...settings}>
         {posts &&
           posts.map((post) => (
             <div className="content-block" key={post.id}>
               <PostThumbnail post={post} width="1230" height="615" />
-              {/* <div className="post-thumbnail">
-                <Image
-                  src={post.thumbnail}
-                  width={1230}
-                  height={615}
-                  alt={post.title}
-                />
-              </div> */}
 
               <PostContent
                 post={post}

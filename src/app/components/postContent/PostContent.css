@@ -11,7 +11,8 @@
   font-weight: 600;
 }
 
-.featured-content-block:hover .post-content .title a {
+.featured-content-block:hover .post-content .title a,
+.content-block:hover .post-content .title a {
   background-size: 100% 2px;
 }
 
@@ -37,4 +38,8 @@
   display: -webkit-box !important;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
+}
+
+body.dark .post-content {
+  background-color: #212121;
 }

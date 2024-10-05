@@ -37,20 +37,6 @@ const MultiColumnSlider = ({ category }) => {
                     fontSize="24"
                     truncate={true}
                   />
-                  {/* <div className="post-content">
-                    <div className="post-cat">
-                      <div className="post-cat-list">
-                        <Link className="hover-flip-item-wrapper" href="">
-                          <span className="hover-flip-item">
-                            <span data-text="Gadget">{post.category}</span>
-                          </span>
-                        </Link>
-                      </div>
-                    </div>
-                    <h4 className="title">
-                      <Link href="">{post.title}</Link>
-                    </h4>
-                  </div> */}
 
                   <div className="post-thumbnail">
                     <div className="round-shape">

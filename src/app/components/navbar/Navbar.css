@@ -1,0 +1,26 @@
+.navbar-nav .nav-item .nav-link {
+  border: none !important;
+}
+.navbar .dropdown-menu {
+  padding-bottom: 0;
+}
+
+.dropdown-item {
+  padding: 0 18px;
+  height: 46px;
+  display: inline-block;
+  line-height: 46px;
+  font-weight: 500;
+  font-size: 18px;
+  outline: none;
+  cursor: pointer;
+  color: #878787;
+}
+
+.logo {
+  text-transform: uppercase;
+  font-size: 32px;
+  font-weight: 700;
+  color: #333;
+  margin: 0;
+}

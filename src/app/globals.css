@@ -165,10 +165,6 @@ ul.post-meta-list li:first-child::after {
 
 /* Featured */
 
-.featured {
-  background-color: #f0f2f5;
-}
-
 .featured-content-block .post-content {
   position: relative;
   bottom: 0;
@@ -250,4 +246,72 @@ ul.post-meta-list li:first-child::after {
 
 .bg-color-grey {
   background: #f0f2f5;
+}
+
+.bg-color-white {
+  background: #fff;
+}
+
+/*
+  Light Dark theme css
+*/
+
+body.dark {
+  color: #fff;
+  background-color: #212121;
+}
+
+body.light {
+  color: #000;
+  background-color: #fff;
+}
+
+body.dark .navbar {
+  background-color: #1a1a1a;
+}
+
+body.dark .navbar .nav-item .nav-link,
+body.dark .category-item .inner .content .title {
+  color: #9f9f9f;
+}
+
+body.dark .logo {
+  color: #ccc;
+}
+
+body.dark .bg-color-grey,
+body.dark .featured-content-block,
+body.dark .content-block-column {
+  background: #212121;
+}
+
+body.dark .featured-content-block,
+body.dark .content-block-column,
+body.dark .post-list-view .post-content,
+body.dark .nav-pills .nav-item .nav-link.active,
+body.dark .nav-pills .nav-item .nav-link {
+  border: 1px solid #464545;
+}
+
+body.dark .post-list-view:hover .post-content,
+body.dark .category-item a.inner,
+body.dark .widget_search,
+body.dark .widget_postlist,
+body.dark .nav-pills .nav-item .nav-link.active,
+body.dark .post-grid .post-grid-content .post-content,
+body.dark .navbar .dropdown-menu {
+  background-color: #1a1a1a;
+}
+
+body.dark .search input {
+  background-color: #242424;
+}
+
+body.dark .widget-title {
+  border-color: #464545;
+}
+
+body.dark .navbar .dropdown-item:hover {
+  background-color: #242424;
+  color: #9f9f9f;
 }

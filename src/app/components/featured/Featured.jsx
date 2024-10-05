@@ -5,7 +5,7 @@ import FeaturedPostContent from "../featuredPostContent/FeaturedPostContent";
 
 const Featured = () => {
   return (
-    <div className="featured pt-4 pb-5">
+    <div className="featured bg-color-grey pt-4 pb-5">
       <div className="container pb-4">
         <Heading heading="More Featured Posts" />
 

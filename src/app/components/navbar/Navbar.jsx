@@ -1,12 +1,14 @@
-import Image from "next/image";
 import React from "react";
+import Image from "next/image";
+import "./Navbar.css";
+import Search from "../search/Search";
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg bg-body-tertiary">
+    <nav className="navbar navbar-expand-lg">
       <div className="container">
         <a className="navbar-brand" href="#">
-          <Image src="/img/logo-black.webp" width={141} height={37} />
+          <h1 className="logo">Blogar</h1>
         </a>
         <button
           className="navbar-toggler"
@@ -44,20 +46,17 @@ const Navbar = () => {
               <ul className="dropdown-menu">
                 <li>
                   <a className="dropdown-item" href="#">
-                    Action
+                    Post List
                   </a>
                 </li>
                 <li>
                   <a className="dropdown-item" href="#">
-                    Another action
+                    Post Archive
                   </a>
                 </li>
                 <li>
-                  <hr className="dropdown-divider" />
-                </li>
-                <li>
                   <a className="dropdown-item" href="#">
-                    Something else here
+                    Author Page
                   </a>
                 </li>
               </ul>
@@ -73,16 +72,8 @@ const Navbar = () => {
               </a>
             </li>
           </ul>
-          <form className="d-flex" role="search">
-            <input
-              className="form-control me-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button className="btn btn-outline-success" type="submit">
-              Search
-            </button>
+          <form className="search">
+            <Search />
           </form>
         </div>
       </div>
