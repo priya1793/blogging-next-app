@@ -276,7 +276,7 @@ body.dark .category-item .inner .content .title {
 }
 
 body.dark .logo {
-  color: #ccc;
+  color: #9b9b9b;
 }
 
 body.dark .bg-color-grey,
@@ -314,4 +314,30 @@ body.dark .widget-title {
 body.dark .navbar .dropdown-item:hover {
   background-color: #242424;
   color: #9f9f9f;
+}
+
+body.dark .footer-area {
+  background-color: #111;
+}
+
+body.dark .footer-mainmenu .footer-widget .title {
+  color: #fff;
+}
+
+body.dark .footer-mainmenu .footer-widget ul.ft-menu-list li a {
+  color: #878787;
+}
+
+body.dark .footer-top:after,
+body.dark .footer-top:before {
+  background: #333;
+}
+
+body.dark ul li {
+  color: #878787;
+}
+
+body.dark ul.social-icon li a {
+  background: #333;
+  color: #65676b;
 }

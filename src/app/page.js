@@ -9,6 +9,7 @@ import MultiColumnSlider from "./components/multiColumnSlider/MultiColumnSlider"
 import Trending from "./components/trending/Trending";
 import Popular from "./components/popular/Popular";
 import ColumnPosts from "./components/columnPosts/ColumnPosts";
+import Footer from "./components/footer/Footer";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
         <Trending />
         <ColumnPosts />
         <Popular />
+        <Footer />
       </main>
     </>
   );
